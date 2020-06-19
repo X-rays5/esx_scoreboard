@@ -10,10 +10,6 @@ An ESX scoreboard based off the Stadus_Scoreboard resource.
 - See all players ping, which is colored
 - Press F9 to open the scoreboard by default
 
-## Getting uptime to work
-
-Properly install the [uptime](https://forum.fivem.net/t/release-show-uptime-in-server-list/162956) thing by Hawaii. If you don't want it then you can remove its code.
-
 ## Getting players in queue to work
 
 There's an event available named `esx_scoreboard:updatePlayersInQueue` that has an argument, which is the numbers of players in queue. Add it where applicable to your queue script, or remove its code.
