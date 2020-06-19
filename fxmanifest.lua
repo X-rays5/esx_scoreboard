@@ -6,7 +6,10 @@ description 'ESX Scoreboard'
 
 version '1.1.0'
 
-server_script 'server/main.lua'
+server_scripts {
+	'server/main.lua',
+	'server/uptime.lua'
+} 
 
 client_script 'client/main.lua'
 

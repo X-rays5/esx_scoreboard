@@ -25,7 +25,7 @@ $(function() {
 				$('#estate').html(jobs.estate);
 				break;
 
-			case 'updatePlayerList':
+			/*case 'updatePlayerList':
 				$('.playerlist tr:gt(0)').remove();
 				$('.playerlist').append(event.data.players);
 				applyPingColor();
@@ -35,7 +35,7 @@ $(function() {
 			case 'updatePing':
 				updatePing(event.data.players);
 				applyPingColor();
-				break;
+				break;*/
 
 			case 'updateServerInfo':
 				if (event.data.maxPlayers) {
@@ -69,7 +69,7 @@ $(function() {
 	};
 });
 
-function applyPingColor() {
+/*function applyPingColor() {
 	$('.playerlist tr:not(:first-child)').each(function() {
 		$(this).find('td:nth-child(3)').each(function() {
 			var ping = $(this).html();
@@ -118,4 +118,4 @@ function sortPlayerList() {
 	rows.each(function(index, row) {
 		table.append(row);
 	});
-}
+}*/
